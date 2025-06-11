@@ -13,10 +13,10 @@ This repository demonstrates various solutions to the classic **Dining Philosoph
 
 ```
 .
-├── semaphore_solution.c       # C implementation using POSIX semaphore
-├── mutex_solution.c           # C implementation using POSIX mutex
-├── MonitorSolution.java       # Java implementation using synchronized monitor
-├── DiningPhilosophers.playground/
+├── semaphore_4_filsuf.c       # C implementation using POSIX semaphore
+├── mutex.c           # C implementation using POSIX mutex
+├── solusi_java.java       # Java implementation using synchronized monitor
+├── swift\ playground/MyPlayground.playground/
 │   └── Contents.swift         # Swift implementation using Actor
 ├── README.md                  # This file
 ```
@@ -27,24 +27,24 @@ This repository demonstrates various solutions to the classic **Dining Philosoph
 
 ### 🔒 Mutex Solution (C)
 ```bash
-gcc -o mutex_solution mutex_solution.c -lpthread
-./mutex_solution
+gcc -o mutex mutex.c -lpthread
+./mutex
 ```
 
 ### 🚦 Semaphore Solution (C)
 ```bash
-gcc -o semaphore_solution semaphore_solution.c -lpthread
-./semaphore_solution
+gcc -o semaphore_4_filsuf semaphore_4_filsuf.c -lpthread
+./semaphore_4_filsuf
 ```
 
 ### ☕ Java Monitor Solution
 ```bash
-javac MonitorSolution.java
-java MonitorSolution
+javac solusi_java.java
+java solusi_java
 ```
 
 ### 🍎 Swift Playground
-1. Open `DiningPhilosophers.playground` in Xcode.
+1. Open `swift\ playground/MyPlayground.playground` in Xcode.
 2. Run the playground.
 
 ---
